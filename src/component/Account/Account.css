@@ -1,0 +1,188 @@
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.account__container {
+  max-width: 1100px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 70vh;
+}
+
+.account__containerLeft {
+  padding-top: 30px;
+  border-right: 1px solid #ddd;
+}
+
+.account__containerLeft p {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.account__containerLeft p:first-child {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.account__containerLeft p.active:first-child {
+  background: linear-gradient(to right, #fff, rgb(217, 217, 250));
+  border-right: 5px solid blue;
+}
+
+.account__containerLeft p span {
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.account__containerLeft p.active:first-child a {
+  color: rgb(110, 110, 240);
+}
+
+.account__containerLeft p:last-child {
+  padding-left: 20px;
+}
+
+.account__containerLeft p a {
+  text-decoration: none;
+  color: grey;
+}
+
+.account__containerRight {
+  margin: 30px 50px;
+}
+
+.account__containerRight__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account__containerRight__top p {
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.account__containerRight__top button {
+  border: 2px solid grey;
+  background: #fff;
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.account__containerRight__top button p {
+  color: #666;
+}
+
+.account__containerRight__top button span {
+  font-size: 20px;
+}
+
+.account__lower__flex {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.account__containerRight__bottom {
+  border: 1px solid #ddd;
+  width: 310px;
+  height: 140px;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.account__containerRight__bottom:first-child div:first-child {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account__containerRight__bottom:first-child div:first-child span {
+  color: red;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.account__containerRight__bottom:first-child div:first-child p {
+  font-weight: bolder;
+  color: #333;
+}
+
+.account__details__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account__details__flex:first-child small,
+.account__details__flex:nth-of-type(2) small {
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 5px;
+}
+
+.account__containerRight__bottom:first-child div:last-child {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  /* justify-content: center; */
+}
+
+.account__containerRight__bottom:first-child div:last-child span {
+  background: orangered;
+  padding: 5px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.account__containerRight__bottom:last-child div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.account__containerRight__bottom:last-child div:first-child span {
+  color: #666;
+  font-size: 30px;
+  margin-right: 20px;
+  /* margin-bottom: 25px; */
+}
+
+.account__containerRight__bottom:last-child div:first-child p {
+  font-size: 20px;
+  color: #333;
+  font-size: 17px;
+}
+
+.account__containerRight__bottom:last-child div:nth-of-type(2) {
+  margin-top: 25px;
+}
+
+.account__containerRight__bottom:last-child div:last-child {
+  margin-top: 25px;
+}
+
+.account__containerRight__bottom:last-child div:last-child span {
+  background: rgb(110, 110, 240);
+  padding: 5px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}

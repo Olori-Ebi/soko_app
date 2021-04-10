@@ -1,0 +1,267 @@
+.home__wrapper {
+  background: #fff;
+}
+
+.home {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+.home__container {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home__headerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__headerLeft span.la-store-alt {
+  font-size: 40px;
+  padding: 10px;
+  background: #eee;
+  border-radius: 50%;
+  margin-right: 15px;
+  color: grey;
+}
+
+.home__headerLeft__fDC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__headerLeft__fDC .bold {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.home__headerLeft__fDC .grey {
+  color: #bbb;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.home__headerRight {
+  display: flex;
+  justify-content: center;
+}
+
+.home__headerRight a {
+  display: flex;
+  text-decoration: none;
+  width: 80px;
+  align-items: center;
+  height: 30px;
+  color: rgb(10, 10, 239);
+}
+
+.home__headerRight a:nth-of-type(1) {
+  position: relative;
+  margin-right: 30px;
+}
+
+.home__headerRight .la-shopping-bag {
+  font-size: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.home__headerRight .la-user {
+  font-size: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.home__body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+  height: 80vh;
+  position: relative;
+}
+
+.home__body__container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+}
+
+.home__body__left {
+  padding-top: 30px;
+  max-width: 22vw;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  color: grey;
+  font-weight: 600;
+}
+
+ul li:first-child {
+  background: linear-gradient(to right, #fff, rgb(217, 217, 250));
+  border-right: 5px solid blue;
+  color: rgb(110, 110, 240);
+}
+
+ul li:last-child {
+  color: rgb(110, 110, 240);
+}
+
+.home__body__center {
+  border-right: 2px solid #ddd;
+  border-left: 2px solid #ddd;
+  max-width: 43vw;
+  width: 100%;
+}
+
+.home__body__input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -20px;
+  left: 31%;
+}
+
+.home__body__input input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: #eeefff;
+  flex: 1;
+  width: 420px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.home__body__input input::placeholder {
+  font-weight: 600;
+}
+
+.home__body__input span {
+  padding: 10px;
+  background: rgb(247, 166, 25);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 17px;
+  width: 20px;
+}
+
+.home__center__container {
+  margin: 35px;
+}
+
+.home__center__container p:first-child {
+  font-weight: 700;
+}
+
+.home__center__container p:first-child span {
+  padding: 5px;
+  background: rgb(110, 110, 240);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.home__center__main {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.home__center__main img {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.home__center__main a {
+  text-decoration: none;
+  color: #444;
+  flex: 1;
+}
+
+.home__center__main .home__center__details {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.home__center__main button {
+  margin-right: 20px;
+  border: 2px solid rgb(110, 110, 240);
+  width: 70px;
+  border-radius: 5px;
+  background: #fff;
+  height: 30px;
+  color: rgb(110, 110, 240);
+  font-weight: 700;
+}
+
+.home__center__main button span {
+  color: rgb(110, 110, 240);
+  font-size: 15px;
+}
+
+.home__body__right {
+  max-width: 15vw;
+  width: 100%;
+}
+
+.home__right__container {
+  margin: 30px;
+  width: 100%;
+}
+
+.home__right__container p:first-child {
+  font-weight: 700;
+}
+
+.home__right__container p:first-child span {
+  padding: 2px 7px;
+  background: rgb(89, 89, 242);
+  border-radius: 5px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.home__right__container .la-frown {
+  color: #bbb;
+  font-size: 150px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.home__right__container p:nth-of-type(2) {
+  margin-left: 35px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.home__right__container p:last-child {
+  text-align: center;
+  color: grey;
+}

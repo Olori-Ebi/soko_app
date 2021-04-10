@@ -1,0 +1,155 @@
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.address__container {
+  max-width: 1100px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  height: 65vh;
+  margin-bottom: 100px;
+}
+
+.address__containerLeft {
+  padding-top: 30px;
+  border-right: 1px solid #ddd;
+}
+
+.address__containerLeft p {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.address__containerLeft p:first-child {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.address__containerLeft p.active:last-child {
+  background: linear-gradient(to right, #fff, rgb(217, 217, 250));
+  border-right: 5px solid blue;
+}
+
+.address__containerLeft p span {
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.address__containerLeft p.active:last-child a {
+  color: rgb(110, 110, 240);
+}
+
+.address__containerLeft p:last-child {
+  padding-left: 20px;
+}
+
+.address__containerLeft p a {
+  text-decoration: none;
+  color: grey;
+}
+
+.address__containerRight {
+  margin: 30px 50px;
+}
+
+.address__lower__flex {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.address__containerRight__bottom {
+  border: 1px solid #ddd;
+  width: 220px;
+  height: 140px;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.address__containerRight__bottom:first-child {
+  margin-right: 20px;
+}
+
+.address__containerRight__bottom:first-child p:first-child {
+  font-weight: 700;
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 15px;
+}
+
+.address__containerRight__bottom:first-child small {
+  color: #555;
+}
+
+.address__containerRight__bottom:first-child p.bold {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+}
+
+.address__containerRight__bottom:first-child div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.address__containerRight__bottom:first-child div h5:first-child {
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+
+.address__containerRight__bottom:first-child div h5:last-child {
+  color: red;
+  cursor: pointer;
+}
+
+.address__details__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address__details__flex:first-child small,
+.address__details__flex:nth-of-type(2) small {
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 5px;
+}
+
+.address__containerRight__bottom:first-child div:last-child {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  /* justify-content: center; */
+}
+
+.address__containerRight__bottom:last-child div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+.address__containerRight__bottom:last-child div p {
+  color: rgb(110, 110, 240);
+  font-size: 16px;
+}
+
+.address__containerRight__bottom:last-child div span {
+  color: rgb(110, 110, 240);
+  font-size: 20px;
+  margin-right: 10px;
+  /* margin-bottom: 25px; */
+}

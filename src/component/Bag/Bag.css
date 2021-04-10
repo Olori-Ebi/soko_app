@@ -1,0 +1,149 @@
+.bag {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+.bag__container {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bag__headerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bag__headerLeft span.la-store-alt {
+  font-size: 40px;
+  padding: 10px;
+  background: #eee;
+  border-radius: 50%;
+  margin-right: 15px;
+  color: grey;
+}
+
+.bag__headerLeft__fDC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bag__headerLeft__fDC .bold {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.bag__headerLeft__fDC .grey {
+  color: #bbb;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.bag__headerRight {
+  display: flex;
+  justify-content: center;
+}
+
+.mr-10 {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.bag__headerRight p {
+  padding: 5px;
+  width: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bag__headerRight p.active {
+  border-radius: 50px;
+  background: rgb(231, 231, 255);
+  color: rgb(10, 10, 239);
+}
+
+.bag__headerRight .la-shopping-bag {
+  font-size: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.bag__headerRight .la-user {
+  font-size: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.bag__body {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bag__body__container {
+  margin: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bag__body__container p:first-child {
+  font-weight: 700;
+}
+
+.bag__body__container p:first-child span {
+  padding: 2px 7px;
+  background: rgb(89, 89, 242);
+  border-radius: 5px;
+  margin-left: 5px;
+  color: #fff;
+}
+
+.bag__body__container .la-frown {
+  color: #bbb;
+  font-size: 150px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.bag__body__container p:nth-of-type(2) {
+  margin-left: 35px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.bag__body__container p:nth-of-type(3) {
+  text-align: center;
+  color: grey;
+}
+
+.bag__body__container p:last-child {
+  padding: 8px;
+  background: rgb(227, 191, 14);
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.bag__body__container p:last-child a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(10, 10, 239);
+}

@@ -1,0 +1,86 @@
+.modal {
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: -100px;
+  display: grid;
+  place-items: center;
+  z-index: 100;
+}
+
+.modal__card {
+  height: 550px;
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 3rem;
+  /* padding: 10px; */
+}
+
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.modal__header p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333;
+}
+
+.modal__header span {
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+form {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form div label {
+  font-size: 13px;
+  margin-bottom: 5px;
+  color: #666;
+  font-weight: 600;
+}
+
+form div input {
+  height: 25px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+textarea {
+  height: 150px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+form div button {
+  background: yellow;
+  margin: 0 auto;
+  height: 40px;
+  border: 1px solid rgb(220, 220, 24);
+  border-radius: 5px;
+  color: rgb(112, 112, 230);
+  font-weight: 600;
+  width: 200px;
+  font-size: 17px;
+}

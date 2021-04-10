@@ -1,0 +1,58 @@
+.place__grid__container {
+  display: grid;
+  place-items: center;
+  margin-top: 50px;
+}
+
+.place__grid__container img {
+  width: 200px;
+  height: 200px;
+}
+
+.place__grid__container p {
+  font-weight: 700;
+}
+
+.place__grid__container p:nth-of-type(2) {
+  margin-bottom: 5px;
+}
+
+.place__grid__container small {
+  color: #444;
+  padding-bottom: 15px;
+}
+
+.place__grid__container small span {
+  font-weight: 700;
+}
+
+.place__grid__container div {
+  display: flex;
+  align-items: center;
+}
+
+.place__grid__container div button {
+  margin-right: 10px;
+}
+
+.place__grid__container div button {
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  color: rgb(10, 10, 239);
+  font-weight: 700;
+}
+
+.place__grid__container div button {
+  border: 2px solid rgb(10, 10, 239);
+  background: #fff;
+}
+
+.place__grid__container div a {
+  text-decoration: none;
+}
+
+.place__grid__container div a button {
+  background: yellow;
+  border: none;
+}
