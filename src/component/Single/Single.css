@@ -303,7 +303,8 @@
 
 .single__imageContainer .img__container p {
   font-weight: 700;
-  padding-left: 10px;
+  padding-left: 20px;
+  font-size: 13px;
 }
 
 .single__imageContainer .img__container img {

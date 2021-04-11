@@ -119,48 +119,34 @@ For more phone models and colors, click seller Information to enter our store fo
         <div className="single__imageContainer" ref={listRef}>
           <div className="img__container">
             <img src={img} />
-            <p>Laptop</p>
-            <p>Awesome</p>
+            <p>Bluetooth 5.0 Earphones</p>
+            <p>UGX 14,500</p>
           </div>
           <div className="img__container">
             <img src={img2} />
-            <p>Laptop</p>
-            <p>Awesome</p>
+            <p>Wireless 4D</p>
+            <p>UGX 13,800</p>
           </div>
           <div className="img__container">
             <img src={img3} />
-            <p>Laptop</p>
-            <p>Awesome</p>
+            <p>Fingerprint Touch</p>
+            <p>UGX 15,000</p>
           </div>
+          
           <div className="img__container">
             <img src={img} />
-            <p>Laptop</p>
-            <p>Awesome</p>
+            <p>Bluetooth 5.0 Earphones</p>
+            <p>UGX 14,500</p>
           </div>
           <div className="img__container">
             <img src={img2} />
-            <p>Laptop</p>
-            <p>Awesome</p>
+            <p>Wireless 4D</p>
+            <p>UGX 13,800</p>
           </div>
           <div className="img__container">
             <img src={img3} />
-            <p>Laptop</p>
-            <p>Awesome</p>
-          </div>
-          <div className="img__container">
-            <img src={img7} />
-            <p>Laptop</p>
-            <p>Awesome</p>
-          </div>
-          <div className="img__container">
-            <img src={img2} />
-            <p>Laptop</p>
-            <p>Awesome</p>
-          </div>
-          <div className="img__container">
-            <img src={img9} />
-            <p>Laptop</p>
-            <p>Awesome</p>
+            <p>Fingerprint Touch</p>
+            <p>UGX 15,000</p>
           </div>
         </div>
       </div>
