@@ -9,6 +9,7 @@ import Address from '../Address';
 import SingleItem from '../Single';
 import Buy from '../Buy';
 import PlaceOrder from '../PlaceOrder';
+import TrackOrder from '../TrackOrder';
 
 function Pages () {
   return (
@@ -22,6 +23,7 @@ function Pages () {
           <Route exact path="/single" component={SingleItem} />
           <Route exact path="/buy" component={Buy} />
           <Route exact path="/placeorder" component={PlaceOrder} />
+          <Route exact path="/trackorder" component={TrackOrder} />
           <Route exact path="/" component={Home} />
         </Switch>
       </div>

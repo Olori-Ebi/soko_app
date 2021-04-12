@@ -43,7 +43,7 @@
   font-weight: 700;
 }
 
-.place__grid__container div button {
+.place__grid__container div a button.border__blue {
   border: 2px solid rgb(10, 10, 239);
   background: #fff;
 }

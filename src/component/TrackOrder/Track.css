@@ -1,0 +1,362 @@
+.track {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-bottom: 1px solid #ddd;
+}
+
+.track__container {
+  max-width: 1100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.track__headerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.track__headerLeft span.la-store-alt {
+  font-size: 40px;
+  padding: 10px;
+  background: #eee;
+  border-radius: 50%;
+  margin-right: 15px;
+  color: grey;
+}
+
+.track__headerLeft__fDC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.track__headerLeft__fDC .bold {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.track__headerLeft__fDC .grey {
+  color: #bbb;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.track__headerRight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.track__headerRight a {
+  display: flex;
+  text-decoration: none;
+  width: 80px;
+  align-items: center;
+  height: 30px;
+  color: rgb(0, 0, 244);
+}
+
+.track__headerRight a:nth-of-type(1) {
+  position: relative;
+  margin-right: 30px;
+}
+
+.track__headerRight a:nth-of-type(2) {
+  width: 100px;
+}
+
+.track__headerRight a:nth-of-type(1) span:nth-of-type(2) {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: red;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  left: 20px;
+  top: -5px;
+  font-size: 14px;
+}
+
+.track__headerRight .la-shopping-bag {
+  font-size: 25px;
+  padding-right: 5px;
+  cursor: pointer;
+  padding-right: 15px;
+}
+
+.track__headerRight .la-user {
+  font-size: 25px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.track__container:last-child a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.track a {
+  text-decoration: none;
+}
+
+.track__container:last-child p {
+  font-weight: 700;
+  font-size: 20px;
+  color: #444;
+  margin-left: 20px;
+}
+
+.track__container:last-child span {
+  color: #444;
+  font-weight: 700;
+}
+
+.track__wrapper {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.track__card__container {
+  width: 600px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  height: 130vh;
+  margin-bottom: 50px;
+}
+
+.track__item__container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #ddd;
+}
+
+.track__item__container span {
+  font-size: 30px;
+  color: red;
+  margin-right: 10px;
+}
+
+.track__item__container .item__column__right p,
+.track__item__container2 .item__column__right p,
+.track__item__container3 .item__column__right p {
+  font-weight: 700;
+}
+
+.item__column__right small {
+  font-size: 12px;
+}
+
+.track__item__wrapper {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.track__item__container2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.track__item__container2 span {
+  color: #fff;
+  background: green;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.track__item__container3 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.track__item__container3 span {
+  color: #fff;
+  background: #bbb;
+  margin-right: 10px;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.track__items__detail__container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.track__items__detail__container small {
+  padding-bottom: 10px;
+}
+
+.track__image__container {
+  display: flex;
+}
+
+.track__image__container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.track__container__column {
+  width: 100%;
+}
+
+.track__container__column p:first-child {
+  font-weight: 700;
+}
+
+.track__right__container {
+  display: flex;
+  align-items: center;
+}
+
+.track__right__container .track__left {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.track__right__container .track__left small {
+  margin-right: 5px;
+}
+
+.track__right__container .track__left p {
+  font-weight: 700;
+}
+
+.track__right__container .track__right {
+  display: flex;
+  margin-top: 15px;
+}
+
+.track__right__container .track__right small {
+  margin-right: 5px;
+}
+
+.track__right__container .track__right p {
+  border-radius: 50%;
+  background: #000;
+  height: 15px;
+  width: 15px;
+}
+
+.track__lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track__lower p {
+  font-size: 15px;
+  padding: 1px;
+  background: #eee;
+  color: #444;
+}
+
+.track__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.track__main p {
+  font-size: 15px;
+  color: #444;
+  margin-top: 10px;
+}
+
+.track__main p.green {
+  color: green !important;
+  font-weight: 700;
+}
+
+.dotted__line {
+  border-bottom: 1px dotted #bbb;
+  margin-top: 20px;
+}
+
+.bolded__flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bolded__flex p {
+  font-weight: 700;
+  font-size: 15px;
+  color: #444;
+}
+
+.small {
+  font-size: 12px;
+  font-style: italic;
+  color: #bbb;
+}
+
+.dotted__line2 {
+  border-bottom: 1px dotted #ddd;
+  margin-top: 10px;
+}
+
+.green {
+  font-weight: 700;
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.solid__line {
+  border-bottom: 1px solid #888;
+  margin-top: 15px;
+}
+
+h4 {
+  color: #888;
+  margin-top: 25px;
+  font-weight: lighter;
+  margin-bottom: 6px;
+}
+
+.track__card__container > p:nth-of-type(2) {
+  font-weight: 700;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.track__card__container > p:nth-of-type(3) {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.track__card__container > p:nth-of-type(4) {
+  font-weight: 700;
+  font-size: 14px;
+  color: #444;
+}
+
+.track__card__container > p:nth-of-type(5),
+.track__card__container > p:nth-of-type(6) {
+  font-size: 14px;
+  color: #444;
+}
