@@ -67,8 +67,8 @@ function Home () {
                 <img src={img} />
                 <Link to="/single">
                   <div className="home__center__details">
-                    <p>Kids 2PK Cloth Face Mask</p>
-                    <p>UGX 185,000</p>
+                    <p>Bluetooth 5.0 Earphones</p>
+                    <p><small>UGX</small> 14,500</p>
                   </div>
                 </Link>
                 <button><span className="las la-plus" /> Add</button>
@@ -77,8 +77,8 @@ function Home () {
                 <img src={img4} />
                 <Link>
                   <div className="home__center__details">
-                    <p>Kids 2PK Cloth Face Mask</p>
-                    <p>UGX 185,000</p>
+                    <p>Women Fashion Cashual Sneakers Socks Shoes - Black</p>
+                    <p><small>UGX</small> 15,000</p>
                   </div>
                 </Link>
                 <button><span className="las la-plus" /> Add</button>
@@ -87,8 +87,8 @@ function Home () {
                 <img src={img5} />
                 <Link>
                   <div className="home__center__details">
-                    <p>Kids 2PK Cloth Face Mask</p>
-                    <p>UGX 185,000</p>
+                    <p>Trending Female Stockings Sneakers</p>
+                    <p><small>UGX</small> 17,500</p>
                   </div>
                 </Link>
                 <button><span className="las la-plus" /> Add</button>
@@ -97,8 +97,9 @@ function Home () {
                 <img src={img6} />
                 <Link>
                   <div className="home__center__details">
-                    <p>Kids 2PK Cloth Face Mask</p>
-                    <p>UGX 185,000</p>
+                    <p>Unisex Breathable Sport Sneakers </p>
+                    <p><small>UGX</small> 18,000</p>
+                    <p className="cancel"><small>UGX</small> 20,000</p>
                   </div>
                 </Link>
                 <button><span className="las la-plus" /> Add</button>

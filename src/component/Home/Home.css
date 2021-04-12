@@ -160,7 +160,7 @@ ul li:last-child {
 
 .home__body__input span {
   padding: 10px;
-  background: rgb(247, 166, 25);
+  background: yellow;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   font-size: 17px;
@@ -208,6 +208,20 @@ ul li:last-child {
   display: flex;
   flex-direction: column;
   flex: 1;
+}
+
+.home__center__main .home__center__details p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.home__center__main .home__center__details p.cancel {
+  text-decoration: line-through;
+  color: #bbb;
+}
+
+.home__center__main .home__center__details p small {
+  font-size: 15px;
 }
 
 .home__center__main button {

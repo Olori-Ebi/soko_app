@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import {NavLink} from 'react-router-dom';
 import img from '../../images/1.jpg';
 import img2 from '../../images/2.jpg';
@@ -11,13 +11,12 @@ import mask from '../../images/mask.jpg';
 import stool from '../../images/stool.jpg';
 import Footer from '../Footer/Footer';
 import Carousel from 'react-elastic-carousel'
-// import Carousel from 'react-multi-carousel'
-// import 'react-multi-carousel/lib/styles.css'
 import './Single.css';
 
 
 function SingleItem () {
   const listRef = useRef(null);
+  const [count, setCount] = useState(1)
 
   const scrollLeft = () => {
     if(listRef.current) {
@@ -37,6 +36,14 @@ function SingleItem () {
         behavior: "smooth"
       })
     }
+  }
+
+  const increment = () => {
+    setCount(count+1)
+  }
+
+  const decrement = (e) => {
+    count <= 1 ? setCount(1): setCount(count-1)
   }
 
 
@@ -93,9 +100,9 @@ For more phone models and colors, click seller Information to enter our store fo
           <small>UGX 148,000</small>
           <div className="width">
             <div>
-              <span className="las la-minus"></span>
-              <input value="1" />
-              <span className="las la-plus"></span>
+              <span onClick={decrement} className="las la-minus"></span>
+              <input value={count} />
+              <span onClick={increment} className="las la-plus"></span>
             </div>
           </div>
           <div className="single__buttons">
