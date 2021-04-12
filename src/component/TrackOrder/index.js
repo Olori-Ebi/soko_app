@@ -83,7 +83,7 @@ function TrackOrder () {
                       </div>
                       <div className="track__right">
                         <small>Color:</small>
-                        <p></p>
+                        <p className="white"></p>
                       </div>
                     </div>
                   </div>

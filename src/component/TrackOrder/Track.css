@@ -261,6 +261,12 @@
   height: 15px;
   width: 15px;
 }
+.track__right__container .track__right p.white {
+  border-radius: 50%;
+  background: #ddd;
+  height: 15px;
+  width: 15px;
+}
 
 .track__lower {
   display: flex;
