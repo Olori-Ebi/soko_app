@@ -358,7 +358,7 @@ input::-webkit-inner-spin-button {
 }
 .address__line__verified__ {
   position: absolute;
-  height: 20vh;
+  height: 15vh;
   left: 15px;
   top: 4vh;
   border-left: 2px solid #ddd;

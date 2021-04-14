@@ -20,7 +20,7 @@ function Pages () {
           <Route exact path="/bag" component={Bag} />
           <Route exact path="/address" component={Address} />
           <Route exact path="/account" component={Account} />
-          <Route exact path="/single" component={SingleItem} />
+          <Route exact path="/single/:id" component={SingleItem} />
           <Route exact path="/buy" component={Buy} />
           <Route exact path="/placeorder" component={PlaceOrder} />
           <Route exact path="/trackorder" component={TrackOrder} />

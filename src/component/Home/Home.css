@@ -13,7 +13,7 @@
 }
 
 .home__container {
-  max-width: 1100px;
+  max-width: 1150px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -95,15 +95,27 @@
 }
 
 .home__body__container {
-  max-width: 1200px;
+  max-width: 1150px;
   width: 100%;
   display: flex;
 }
 
 .home__body__left {
   padding-top: 30px;
+}
+
+.home__body__column {
+  display: flex;
+  flex-direction: column;
   max-width: 22vw;
   width: 100%;
+}
+
+.home__body__column a.categories {
+  margin-top: 30px;
+  margin-left: 45px;
+  color: blue;
+  font-weight: 700;
 }
 
 ul {
@@ -117,10 +129,15 @@ ul li {
   font-weight: 600;
 }
 
-ul li:first-child {
+ul li.active {
   background: linear-gradient(to right, #fff, rgb(217, 217, 250));
   border-right: 5px solid blue;
   color: rgb(110, 110, 240);
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(10, 10, 239);
 }
 
 ul li:last-child {
@@ -211,7 +228,7 @@ ul li:last-child {
 }
 
 .home__center__main .home__center__details p {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 5px;
 }
 
@@ -260,6 +277,7 @@ ul li:last-child {
   border-radius: 5px;
   margin-left: 5px;
   color: #fff;
+  margin-top: 10px;
 }
 
 .home__right__container .la-frown {
@@ -278,4 +296,54 @@ ul li:last-child {
 .home__right__container p:last-child {
   text-align: center;
   color: grey;
+}
+
+.home__right__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.home__right__main img {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.home__right__main a {
+  text-decoration: none;
+  color: #444;
+}
+
+.home__right__main .home__center__details {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.home__right__main .home__center__details p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.home__right__main button {
+  /* margin-right: 20px; */
+  border: 2px solid rgb(110, 110, 240);
+  width: 70px;
+  border-radius: 5px;
+  background: #fff;
+  height: 30px;
+  color: rgb(110, 110, 240);
+  font-weight: 700;
+}
+
+.home__right__main button span {
+  color: rgb(110, 110, 240);
+  font-size: 15px;
 }
